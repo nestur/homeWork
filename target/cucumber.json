@@ -1,0 +1,229 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6860789200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T19:46:35.187Z",
+        "line": 6,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-page;login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 779044300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters with wrong username or wrong password",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_enters_with_wrong_username_or_wrong_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should not be able to login",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125002500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see error message Login and/or password wrong",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_should_see_error_message_Login_and_or_password_wrong()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 611297500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T19:46:43.075Z",
+        "line": 11,
+        "name": "Login with missing credentials",
+        "description": "",
+        "id": "login-page;login-with-missing-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 747996800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user enters with blank username or password",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_enters_with_blank_username_or_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10996600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should not be able to login",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should see error message Login and/or password wrong",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_should_see_error_message_Login_and_or_password_wrong()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 705401200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-24T19:46:44.517Z",
+        "line": 16,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-page;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3830630000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters with valid credentials",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_enters_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10998400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should see Account Summary page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDefinitions.the_user_should_see_Account_Summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
